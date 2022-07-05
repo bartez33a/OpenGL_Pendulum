@@ -3,6 +3,7 @@
 It's a simulation of pendulum in OpenGL.
 
 You can create Pendulum object via constructor:
+
 Pendulum name(size_of_circle, length_of_pendulum, start_angle_in_degrees)
 
 Examples:
