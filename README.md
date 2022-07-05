@@ -9,8 +9,8 @@
 
 and then you have to write some code in rendering loop like this:
 
-  //uniform for translate pendulum
-  unsigned int transformLoc = glGetUniformLocation(s_p1.get_ID(), "transform");
+  	//uniform for translate pendulum
+  	unsigned int transformLoc = glGetUniformLocation(s_p1.get_ID(), "transform");
 	glm::mat4 trans = glm::mat4(1.0f);
 	glm::vec3 tr_vec(p1.get_x_translate(), p1.get_y_translate(), p1.get_z_translate());
 	trans = glm::translate(trans, tr_vec);
